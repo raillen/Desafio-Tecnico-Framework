@@ -1,0 +1,84 @@
+:root {
+    --main-color: #5F3473;
+    --second-color: #ffffff;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif !important;
+    background-color: var(--main-color);
+}
+
+.flex {
+    display: flex;
+}
+
+.nav.flex {
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.705);
+    margin-bottom: 3rem;
+}
+
+.navbar.flex {
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+
+.navbar li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.navbar li a {
+    color: var(--second-color);
+}
+
+main.flex {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.table {
+    text-align: left;
+    border-collapse: collapse;
+    cursor: pointer;
+    color: rgb(247, 219, 255);
+}
+
+.thead {
+    background: rgba(0, 0, 0, 0.705);
+    padding: 2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.table td {
+    padding: 1rem;
+    /* margin: 30px; */
+}
+
+.tbody tr:nth-child(odd) {
+    background: #8751a0;
+}
+
+.tbody tr:nth-child(odd):hover {
+    background: #a46fbd;
+    color: rgb(0, 0, 0);
+}
+
+.tbody tr:nth-child(even):hover {
+    background: #783f94;
+    color: rgb(0, 0, 0);
+}
