@@ -54,6 +54,7 @@ main.flex {
     border-collapse: collapse;
     cursor: pointer;
     color: rgb(247, 219, 255);
+    margin: 0 auto;
 }
 
 .thead {
