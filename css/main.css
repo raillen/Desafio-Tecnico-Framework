@@ -55,6 +55,7 @@ main.flex {
     cursor: pointer;
     color: rgb(247, 219, 255);
     margin: 0 auto;
+    max-width: 800px;
 }
 
 .thead {
@@ -72,6 +73,10 @@ main.flex {
 
 .tbody tr:nth-child(odd) {
     background: #8751a0;
+}
+
+.tbody td:nth-child(2) {
+    font-size: 1.3rem;
 }
 
 .tbody tr:nth-child(odd):hover {
