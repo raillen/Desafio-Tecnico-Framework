@@ -84,11 +84,11 @@ const FetchData = url_param => {
 
                             if (el.innerText == "true") {
                                 el.style.backgroundColor = 'green'
-                                el.style.color = 'green'
+                                el.style.color = 'transparent'
                                 el.style.fontSize = '0.1rem'
                             } else {
                                 el.style.backgroundColor = 'red'
-                                el.style.color = 'red'
+                                el.style.color = 'transparent'
                                 el.style.fontSize = '0.1rem'
                             }
                         })
